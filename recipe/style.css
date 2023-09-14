@@ -1,21 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 h1{
-    text-align: center;
-}
-h1{
-    text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 36px;
-    color: brown;
+    font-size: 2.3rem;
+    line-height: 2.5em;
+     color: brown;
 }
 
 body{
     background-color: rgb(240, 188, 202);
     font-family: 'Trebuchet MS', sans-serif; 
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
-img{
 
-    
+div#wrapper{
+    max-width: 1000px;
+    background-color: rgb(222, 117, 186);
+    border-radius: 20px;
+    padding: 2rem;
+    /*centering the div by forcing left and right margins to be the same */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+img{
+width: 50%; 
+}
+
+li{
+  margin-bottom: 1.5rem;
+}
+.align-center{
+    text-align:center
 }
