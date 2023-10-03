@@ -10,11 +10,24 @@ header{
     background-repeat: no-repeat;
     background-position: top right; */
     background:
-    linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 3%, rgba(0,0,0,0) 4%) ,url("images/greysanatomy.jpg") no-repeat top right, #000;
+    linear-gradient(90deg, rgba(0,0,0,1) 6%, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 98%) ,url("images/greysanatomy.jpg") no-repeat top right/60%, #000;
 }
 
 .lead{
-   width: 33%;
+   width: 40%;
    color: #fff;
 
+}
+h1 img{
+    width: 300px;
+}
+.button{ 
+    display:block;
+    width:3em;
+    text-align: center;
+    background-color: red;
+    padding: 6px;
+    border-radius: 10px;
+    color:#fff;
+    text-decoration:none;
 }
