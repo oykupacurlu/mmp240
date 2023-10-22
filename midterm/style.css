@@ -1,5 +1,6 @@
 #wrapper {
     max-width: 1200px;
+    overflow: auto;
     
 }
 
@@ -42,6 +43,11 @@ nav li{
   
 }
 
+nav li:last-child{
+    border:none
+
+}
+
 nav a{
     color:#fff;
     text-decoration: none;
@@ -51,6 +57,22 @@ nav{
     background-color: rgb(32, 32, 32);
     padding: 0.1em 0; /* first value for top & bottom second value for left & right */
 }
-col{
+.col{
     float: left;
+    width: 49%;
+    margin-right: 2%;
+}
+.col:last-child{
+    margin-right: 0;
+}
+
+footer{ /* making sure notnhing floats next to footer */
+    clear:both;
+}
+
+.episodes{
+    display: flex;
+}
+.card img{
+    float:left;
 }
