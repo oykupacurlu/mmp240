@@ -59,7 +59,7 @@ nav{
 }
 .col{
     float: left;
-    width: 49%;
+    width: 40%;
     margin-right: 2%;
 }
 .col:last-child{
@@ -72,7 +72,35 @@ footer{ /* making sure notnhing floats next to footer */
 
 .episodes{
     display: flex;
+    flex-wrap: wrap;
 }
 .card img{
-    float:left;
+   flex: 1 0  200px;
+   margin-right: 2em;
+   border:solid 1px #0d1061;
+   margin-bottom: 2m;
+   padding: 1em;
+   
 }
+
+.card img{
+    width:20%;
+    margin-right: 2em;
+    border: solid 1px darkblue;
+    flex: wrap;
+}
+
+.card{ 
+    width: 100%;
+    margin-right:0;
+    margin-bottom: 2em;
+    padding: 1em;
+    
+
+    float: left;
+
+}
+
+
+
+
