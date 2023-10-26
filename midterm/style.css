@@ -85,7 +85,6 @@ footer{ /* making sure notnhing floats next to footer */
    width: 25%;
     margin-right:  1%;
     margin-bottom: 1em;
-    padding: 1em;
     border:solid 1px #0d1061;
     font-size: 0.8em;
 }
@@ -97,4 +96,8 @@ main {
 
 footer {
     font-size: 0.8em;
+}
+
+.card p, .card h3{
+    margin: 1em;
 }
