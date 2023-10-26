@@ -1,6 +1,7 @@
 #wrapper {
-    max-width: 1200px;
+   
     overflow: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -73,27 +74,27 @@ footer{ /* making sure notnhing floats next to footer */
 /* episode style css */
 .episodes{
     display: flex;
-    flex-wrap: wrap;
+
 }
 .card img{
-   flex: 1 1 auto;
-   width: 100%;
-   margin-right: 2em;
-   border:solid 1px #0d1061;
-   margin-bottom: 2em;
-   padding: 2em;
-   
+   width: 100%;  
 }
 
 
 .card{ 
-    width: 25%;
+   width: 25%;
     margin-right:  1%;
     margin-bottom: 1em;
     padding: 1em;
-
+    border:solid 1px #0d1061;
+    font-size: 0.8em;
 }
 
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
-
-
+footer {
+    font-size: 0.8em;
+}
