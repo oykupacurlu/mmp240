@@ -1,0 +1,22 @@
+#wrapper{
+    max-width: 1200px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topNav nav{
+   /* display: none;*/
+   clear: right; /*clears right float*/
+   border: solid 1px #ccc;
+   padding: 0.5em;
+}
+.topNav nav li{
+    margin-bottom: 1em;
+}
+
+#menu{
+    float: right;
+}
