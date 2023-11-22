@@ -8,7 +8,7 @@ header{
 }
 
 .topNav nav{
-   /* display: none;*/
+   display: none;
    clear: right; /*clears right float*/
    border: solid 1px #ccc;
    padding: 0.5em;
@@ -19,4 +19,25 @@ header{
 
 #menu{
     float: right;
+}
+
+.programNav a{ 
+    display:block;
+    padding:10px;
+    border:solid 1px #ccc;
+}
+
+.dropdown{
+    display:none;
+}
+
+.programNav a{
+    background-color: aqua;
+}
+.programNav a:hover .dropdown{
+    display:block;
+}
+
+.program-select{
+    margin-bottom:1em;
 }
