@@ -2,11 +2,49 @@
     max-width: 1200px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+
+
+body{
+    margin: 0.5em;
+    margin-top: 1em;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.4em;
+    
 }
 
+
+p{
+  margin-bottom:1em ;
+  margin-top: 1em;
+}
+
+h1, h2, h3, strong{
+    font-weight: bold;
+}
+
+a{
+    color:cadetblue;
+}
+
+h2{
+    text-transform: uppercase;
+    color: rgb(255, 140, 0);
+}
+
+#wrapper{
+   max-width: 1200%;
+}
+
+header{
+    margin-bottom: 1em;
+    overflow: auto;
+}
+ h1{
+   float:left;
+ }
 .topNav nav{
    display: none;
    clear: right; /*clears right float*/
@@ -31,13 +69,73 @@ header{
     display:none;
 }
 
-.programNav a{
-    background-color: aqua;
+.dropdown a{
+    background-color: cadetblue;
+    color: #
 }
-.programNav a:hover .dropdown{
+
+.programNav li:hover .dropdown{
     display:block;
 }
 
 .program-select{
     margin-bottom:1em;
 }
+
+/* banner */
+
+.banner{
+    padding:2em;
+    height:200px;
+    background: url(images/queens-banner.webp) no-repeat;
+    background-size: cover;
+}
+
+.banner{
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5em;
+    padding:1em;
+}
+
+.btn{
+    display: block;
+    width: 100px;
+    background-color: rgb(151, 13, 13);
+    padding:0.5em;
+    text-transform: uppercase;
+    color:#fff;
+    margin-top: 1em;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #000 ;
+
+}
+
+section{
+    margin: 2em 0;
+}
+
+article{
+    margin:1em 0;
+}
+
+article img{
+    width: 100%;
+}
+
+.date{
+    margin-top: 0.5em;
+}
+
+footer{
+    font-size: smaller;
+}
+
+@media (min-width:570pc){
+    main{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap:1em;
+    }
+}
+
