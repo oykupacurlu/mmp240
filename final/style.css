@@ -119,7 +119,11 @@ article{
     margin:1em 0;
 }
 
-article img{
+/* article img{
+    width: 100%;
+} */
+
+.flexImg{
     width: 100%;
 }
 
@@ -131,7 +135,7 @@ footer{
     font-size: smaller;
 }
 
-@media (min-width:570pc){
+@media (min-width:768px){
     main{
         display:grid;
         grid-template-columns: 2fr 1fr;
@@ -139,3 +143,17 @@ footer{
     }
 }
 
+.flex-container{
+    display:flex;
+
+}
+
+.program-select{
+    width:33%;
+    position: relative;
+}
+
+.dropdown{
+    position:absolute;
+    width:100%;
+}
