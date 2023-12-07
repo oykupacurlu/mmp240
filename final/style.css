@@ -158,6 +158,10 @@ nav a:hover{
         grid-gap:1em;
     }
 
+    main.program-page{
+        display:block;
+    }
+
 .flex-container{
     display:flex;
 
@@ -189,4 +193,21 @@ nav a:hover{
      margin-right: 0;
  }
   
+ .programs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+ }
+ .programs a{
+    text-decoration: none;
+ }
+
+ .program-card{
+    box-shadow: 3px 3px 10px #ef9ade;
+    padding:1em;
+ }
+
+ .program-card p .program-card h3 .program-card h4{
+    margin:1em;
+ }
 }
